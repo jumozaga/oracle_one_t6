@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    background: rgb(75, 68, 198);
+    background: linear-gradient(
+        90deg,
+        rgb(156, 153, 201) 0%,
+        rgb(60, 57, 135) 54%,
+        rgb(56, 19, 124) 100%
+    );
+}
+
+h1,
+span,
+label {
+    color: #fff;
+}
+h1 {
+    font-family: "VT323", monospace;
+    font-size: 4rem;
+}
+
+textarea {
+    width: 200px;
+    height: 300px;
+    border: none !important;
+    outline: none !important;
+    resize: none !important;
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+
+#caixatexto1,
+#caixatexto2 {
+    background: darkslateblue;
+    color: chartreuse;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+           
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+@media (min-width: 768px) {
+    .buttons {
+        flex-direction: row;
+    }
+}
+
+button {
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-width: 1px;
+    color: #f5f3f7d9;
+    border-color: #dbdbda92;
+    font-weight: bold;
+    border-radius: 16px;
+    box-shadow: inset 0px 1px 0px 0px #5a4a8c;
+    text-shadow: inset 0px 1px 0px #0d0111;
+    background: linear-gradient(135deg, #221835 0%, #7b68ee 100%); /* Lilás puro */
+    margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+    button {
+        margin-bottom: 0;
+        margin-right: 10px;
+    }
+}
+
+
+#textomenu {
+    size: 50px;
+    font-size: 25;
+}
+
+.footer {
+    position:sticky;  
+    width: 100%;
+    height: 5%;
+    background-color: #4c4b5f;
+    padding: 20px 0;
+    border-top: 2%;
+    color: #f2f7f3;
+    text-align: center;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer h5 {
+    margin-bottom: 10px;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin-bottom: 5px;
+}
+
+.footer ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+/* Media query para telas menores */
+@media (max-width: 768px) {
+    .footer .row {
+        flex-direction: column;
+    }
+}
+
+/* rodape
+.footer {
+    padding: 40px 0;
+    background-color: var(--preta);
+}
+
+.footer .social {
+    text-align: center;
+    padding-bottom: 25px;
+    color: #fff;
+}
+
+.footer .social a {
+    font-size: 24px;
+    color: inherit;
+    border: 1px solid #ccc;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 0.75;
+}
+
+.footer .social a:hover {
+    opacity: 0.9;
+}
+
+.footer ul {
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+.footer ul a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.footer ul li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.footer ul a:hover {
+    opacity: 1;
+}
+
+.footer .copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #aaa;
+} */
